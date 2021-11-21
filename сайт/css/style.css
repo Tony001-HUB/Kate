@@ -1,0 +1,217 @@
+body{
+  min-width: 320px;
+  font-family: 'Gotham Pro - Light';
+  font-size: 18px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+@font-face {
+	font-family: 'Moniqa - Black Narrow Display';
+	src: url("../../fonts/moniqa-black-narrow-display.eot");
+	src: local('☺'), url('../fonts/moniqa-black-narrow-display.woff') format('woff'), url('../fonts/moniqa-black-narrow-display.ttf') format('truetype'), url('../fonts/moniqa-black-narrow-display.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro - Italic';
+	src: url('../fonts/gothampro_italic.eot');
+	src: local('☺'), url('../fonts/gothampro_italic.woff') format('woff'), url('../fonts/gothampro_italic.ttf') format('truetype'), url('../fonts/gothampro_italic.svg') format('svg');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gotham Pro - Light Italic';
+	src: url('../fonts/gothampro_lightitalic.eot');
+	src: local('☺'), url('../fonts/gothampro_lightitalic.woff') format('woff'), url('../fonts/gothampro_lightitalic.ttf') format('truetype'), url('../fonts/gothampro_lightitalic.svg') format('svg');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gotham Pro - Light';
+	src: url('../fonts/gothampro_light.eot');
+	src: local('☺'), url('../fonts/gothampro_light.woff') format('woff'), url('../fonts/gothampro_light.ttf') format('truetype'), url('../fonts/gothampro_light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+section{
+  padding: 40px 0;
+}
+
+.header_nav .container{
+  background: url(../img/header-title.png) center no-repeat;
+  background-size: cover;
+  height: auto;
+  min-height: 600px;
+  position: relative;
+}
+
+.nav_link {
+  font-family: 'Gotham Pro - Light Italic';
+  font-size: 18px;
+  text-shadow: 1px 1px 10px #fff;
+}
+
+.nav_link:hover {
+  color: orangered;
+  transition: 0.3s;
+}
+
+.logo {
+  font-family: 'Moniqa - Black Narrow Display';
+  font-size: 240px;
+  line-height: 250px;
+
+
+color: #262626;
+}
+
+.logo_block {
+  margin-top: 50px;
+}
+
+.header_text {
+  font-family: 'Gotham Pro - Light Italic';
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.section_title {
+  font-family: 'Moniqa - Black Narrow Display';
+  font-size: 144px;
+  line-height: 135px;
+}
+
+.my_works_text_title {
+  font-family: 'Gotham Pro - Light';
+  font-size: 35px;
+}
+
+.my_works_text {
+  font-family: 'Gotham Pro - Light';
+  font-size: 24px;
+}
+
+.education_text,
+.education_link {
+  font-size: 24px;
+  line-height: 23px;
+}
+
+.footer_title {
+  font-size: 24px;
+  line-height: 23px;
+}
+
+.footer .container {
+  background-color: #222;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.icon {
+  font-size: 24px;
+  color: #fff;
+}
+
+.icon:hover{
+  color: orangered;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width : 995px){
+
+  .logo {
+    font-size: 140px;
+    line-height: 150px;
+    text-shadow: 1px 1px 15px #fff;
+  }
+
+  .header_text{
+    font-size: 15px;
+  }
+
+  .img_block {
+    text-align: center;
+  }
+
+  .my_works_img {
+  width: 300px;
+  }
+
+}
+
+
+@media only screen and (max-width : 650px) {
+    .header_nav{
+      text-align: center;
+    }
+
+
+    .section_title {
+      font-size: 100px;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+  .nav_row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav_link {
+    margin-right: 0 !important;
+    border-bottom: 1px solid grey;
+    margin-top: 5px;
+  }
+
+  .logo {
+    font-size: 100px;
+    line-height: 100px;
+    text-shadow: 1px 1px 15px #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .logo_block{
+    margin-top: 5px;
+  }
+
+  .header_text{
+    font-size: 13px;
+  }
+
+  .section_title {
+    font-size: 60px;
+  }
+
+}
+
+@media only screen and (max-width : 320px) {
+  .logo {
+    font-size: 70px;
+    line-height: 100px;
+    text-shadow: 1px 1px 15px #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .header_text {
+    line-height: 25px;
+  }
+
+}
+
